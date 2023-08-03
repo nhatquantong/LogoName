@@ -102,9 +102,9 @@
 		F450244E2A73A49900D8C1DD /* LogoName */ = {
 			isa = PBXGroup;
 			children = (
-				F450247F2A73BE6C00D8C1DD /* TestingInfoView.swift */,
+				F47C221E2A7B8DCE0082B80C /* View */,
+				F47C221D2A7B8D030082B80C /* Model */,
 				F450244F2A73A49900D8C1DD /* LogoNameApp.swift */,
-				F45024512A73A49900D8C1DD /* ContentView.swift */,
 				F45024792A73B1D200D8C1DD /* Logo.swift */,
 				F450247D2A73BE3000D8C1DD /* Testing.swift */,
 				F45024532A73A49A00D8C1DD /* Assets.xcassets */,
@@ -137,6 +137,22 @@
 				F450246C2A73A49B00D8C1DD /* LogoNameUITestsLaunchTests.swift */,
 			);
 			path = LogoNameUITests;
+			sourceTree = "<group>";
+		};
+		F47C221D2A7B8D030082B80C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F47C221E2A7B8DCE0082B80C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F450247F2A73BE6C00D8C1DD /* TestingInfoView.swift */,
+				F45024512A73A49900D8C1DD /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

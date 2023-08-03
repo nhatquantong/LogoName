@@ -12,10 +12,12 @@ struct TestingInfoView: View {
 
         var body: some View {
             VStack {
-                Text("Information")
+                Text("Tong Nhat Quan")
                     .font(.title)
                     .padding()
-                Text("This is the information you want to display.")
+                Text("s3819347")
+                    .padding()
+                Text("BP162")
                     .padding()
                 Button("Dismiss") {
                     // Close the small view when the button is clicked
