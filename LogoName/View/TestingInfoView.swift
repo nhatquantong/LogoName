@@ -25,7 +25,7 @@ struct TestingInfoView: View {
                 }
                 .padding()
                 .foregroundColor(.white)
-                .background(Color.blue)
+                .background(Color("green"))
                 .cornerRadius(10)
             }
             .padding()
