@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var showInfoView = false
+    @State private var showListView = false
     var body: some View {
 //        VStack{
 //            LinearGradient(colors: [Color("lighter green"),Color("lightest green")], startPoint: .topLeading, endPoint: .bottomTrailing)
@@ -33,45 +34,49 @@ struct ContentView: View {
 //                TestingInfoView()
 //            }
 //        }
-        VStack{
-            Image("supplement")
-                .resizable()
-                .padding(.top,80)
-                .padding(.bottom,64)
-                .aspectRatio(contentMode: .fit)
+        NavigationView{
+            VStack{
+                Image("supplement")
+                    .resizable()
+                    .padding(.top,80)
+                    .padding(.bottom,64)
+                    .aspectRatio(contentMode: .fit)
+                    
+                    
+                    
+                Text("My Supplement stores")
+                Text("Unlock Your Potential: Embrace Health, Embrace Fitness!")
+                
+                Button("Show Info") {
+                    showInfoView.toggle()
+                }.padding()
+                                .foregroundColor(Color("green"))
+                                .background(Color.white)
+                                .cornerRadius(10)
+                                .sheet(isPresented: $showInfoView) {
+                                    TestingInfoView()
+                                }
+                NavigationLink(destination: ListView(), isActive: $showListView) {
+                                    EmptyView()
+                                }
+                                .hidden()
+                Button("View my Store") {
+                    showListView = true
+                }.padding()
+                                .foregroundColor(Color("green"))
+                                .background(Color.white)
+                                .cornerRadius(10)
+                                
                 
                 
-                
-            Text("My Supplement stores")
-            Text("Unlock Your Potential: Embrace Health, Embrace Fitness!")
-            
-            Button("Show Info") {
-                showInfoView.toggle()
-            }.padding()
-                            .foregroundColor(Color("green"))
-                            .background(Color.white)
-                            .cornerRadius(10)
-                            .sheet(isPresented: $showInfoView) {
-                                TestingInfoView()
-                            }
-            Button("View my Store") {
-                showInfoView.toggle()
-            }.padding()
-                            .foregroundColor(Color("green"))
-                            .background(Color.white)
-                            .cornerRadius(10)
-                            .sheet(isPresented: $showInfoView) {
-                                TestingInfoView()
-                            }
-            
-            
-            Spacer()
-        }
-        .foregroundColor(.black)
-        .padding(.horizontal)
-        .multilineTextAlignment(.center)
-        .background{LinearGradient(colors: [Color("lighter green"),Color("lightest green")], startPoint: .topLeading, endPoint: .bottomTrailing)
-                .edgesIgnoringSafeArea(.all)
+                Spacer()
+            }
+            .foregroundColor(.black)
+            .padding(.horizontal)
+            .multilineTextAlignment(.center)
+            .background{LinearGradient(colors: [Color("lighter green"),Color("lightest green")], startPoint: .topLeading, endPoint: .bottomTrailing)
+                    .edgesIgnoringSafeArea(.all)
+            }
         }
         
     }
