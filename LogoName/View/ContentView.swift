@@ -40,21 +40,26 @@ struct ContentView: View {
                 Image("supplement")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .padding(.top,200)
+                    .padding(.top,150)
                     .frame(width: 200)
                 
                 Text("My Supplement Stores")
                     .foregroundColor(.white)
                     .bold()
-                    .font(.custom("Quicksand-Bold", size: 32))
+                    .font(.custom("Quicksand-Bold", size: 45))
                 Text("Unlock Your Potential: Embrace Health, Embrace Fitness!")
                     .foregroundColor(.white)
-                    .font(.custom("Quicksand-SemiBold", size: 20))
+                    .font(.custom("Quicksand-SemiBold", size: 30))
                     .bold()
-                
-                Button("Show Info"){
+                    
+                Button{
                     showInfoView.toggle()
-                }.padding()
+                }label: {
+                    Text("Creator's Information")
+                        .frame(maxWidth: .infinity)
+                        .font(.custom("Quicksand-Bold", size: 20))
+                }
+                .padding()
                     .foregroundColor(Color.white)
                     .background(Color("blue"))
                     .cornerRadius(30)
@@ -71,10 +76,23 @@ struct ContentView: View {
                                 }
                             )
                             .background(EmptyView())
-                Spacer()
-                Button("VIEW MY STORE") {
+                VStack{
+                    Text("")
+                }
+                VStack{
+                    Text("")
+                }
+                VStack{
+                    Text("")
+                }
+                Button{
                     showListView = true
-                }.padding()
+                }label: {
+                    Text("View My Stores")
+                        .frame(maxWidth: .infinity)
+                        .font(.custom("Quicksand-Bold", size: 20))
+                }
+                .padding()
                     .foregroundColor(Color.white)
                     .background(Color("blue"))
                     .cornerRadius(30)
