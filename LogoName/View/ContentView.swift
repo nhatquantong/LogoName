@@ -39,9 +39,9 @@ struct ContentView: View {
             VStack{
                 Image("supplement")
                     .resizable()
-                    .padding(.top,80)
-                    .padding(.bottom,64)
                     .aspectRatio(contentMode: .fit)
+                    .padding(.top,200)
+                    .frame(width: 100)
                 
                 Text("My Supplement Stores")
                     .foregroundColor(.white)

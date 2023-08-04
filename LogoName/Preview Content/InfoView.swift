@@ -12,13 +12,12 @@ struct InfoView: View {
     let imageName: String
     
     var body: some View {
-        
         RoundedRectangle(cornerRadius: 25)
-            .fill(.black)
+            .fill(.black) // Use the updated parameter name here
             .frame(height: 50)
             .overlay(
                 HStack{
-                    Image(systemName:imageName)
+                    Image(systemName: imageName)
                         .foregroundColor(.white)
                     Text(text)
                         .foregroundColor(.white)
@@ -29,9 +28,8 @@ struct InfoView: View {
 struct InfoView_Previews: PreviewProvider {
     static var previews: some View {
         VStack{
-            InfoView(text:"Student Info", imageName: "person.crop.circle")
+            InfoView(text:"Student Info", imageName: "person.crop.circle") // Use the updated parameter name here
             InfoView(text:"s3819347", imageName: "lanyardcard")
-            
         }
     }
 }
