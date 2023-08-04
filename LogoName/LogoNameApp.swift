@@ -11,7 +11,7 @@ import SwiftUI
 struct LogoNameApp: App {
     var body: some Scene {
         WindowGroup {
-            ListView()
+           ContentView()
         }
     }
 }

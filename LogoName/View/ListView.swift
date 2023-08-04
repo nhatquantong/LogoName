@@ -36,6 +36,7 @@ struct ListView: View {
             }
         }
         .navigationBarTitle("Fruits")
+    
         
     }}
 

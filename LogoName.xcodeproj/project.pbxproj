@@ -28,6 +28,11 @@
 		F4DD77BF2A7CBF1E0065ED6A /* SupplementStoreCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD77BE2A7CBF1E0065ED6A /* SupplementStoreCard.swift */; };
 		F4DD77C12A7CC3D70065ED6A /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD77C02A7CC3D70065ED6A /* ContactRow.swift */; };
 		F4DD77C32A7CC6480065ED6A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD77C22A7CC6480065ED6A /* MapView.swift */; };
+		F4DD77CD2A7CE3070065ED6A /* TestFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD77CC2A7CE3070065ED6A /* TestFont.swift */; };
+		F4DD77D22A7CE8A20065ED6A /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4DD77CF2A7CE8A20065ED6A /* Quicksand-Bold.ttf */; };
+		F4DD77D32A7CE8A20065ED6A /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4DD77D02A7CE8A20065ED6A /* Quicksand-Medium.ttf */; };
+		F4DD77D42A7CE8A20065ED6A /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4DD77D12A7CE8A20065ED6A /* Quicksand-SemiBold.ttf */; };
+		F4DD77D62A7CF2380065ED6A /* CustomButtonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD77D52A7CF2380065ED6A /* CustomButtonTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +77,11 @@
 		F4DD77BE2A7CBF1E0065ED6A /* SupplementStoreCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplementStoreCard.swift; sourceTree = "<group>"; };
 		F4DD77C02A7CC3D70065ED6A /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
 		F4DD77C22A7CC6480065ED6A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F4DD77CC2A7CE3070065ED6A /* TestFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFont.swift; sourceTree = "<group>"; };
+		F4DD77CF2A7CE8A20065ED6A /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		F4DD77D02A7CE8A20065ED6A /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		F4DD77D12A7CE8A20065ED6A /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
+		F4DD77D52A7CF2380065ED6A /* CustomButtonTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +143,7 @@
 		F450244E2A73A49900D8C1DD /* LogoName */ = {
 			isa = PBXGroup;
 			children = (
+				F4DD77CE2A7CE7980065ED6A /* Fonts */,
 				F44972DC2A7B9BCE00F237E6 /* Model */,
 				F47C221E2A7B8DCE0082B80C /* View */,
 				F450244F2A73A49900D8C1DD /* LogoNameApp.swift */,
@@ -181,8 +192,20 @@
 				F45024512A73A49900D8C1DD /* ContentView.swift */,
 				F44972E12A7B9CCA00F237E6 /* ListView.swift */,
 				F4DD77C22A7CC6480065ED6A /* MapView.swift */,
+				F4DD77CC2A7CE3070065ED6A /* TestFont.swift */,
+				F4DD77D52A7CF2380065ED6A /* CustomButtonTest.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F4DD77CE2A7CE7980065ED6A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD77CF2A7CE8A20065ED6A /* Quicksand-Bold.ttf */,
+				F4DD77D02A7CE8A20065ED6A /* Quicksand-Medium.ttf */,
+				F4DD77D12A7CE8A20065ED6A /* Quicksand-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +315,9 @@
 				F45024572A73A49A00D8C1DD /* Preview Assets.xcassets in Resources */,
 				F45024542A73A49A00D8C1DD /* Assets.xcassets in Resources */,
 				F4DD77B72A7CB6D70065ED6A /* supplementstores.json in Resources */,
+				F4DD77D42A7CE8A20065ED6A /* Quicksand-SemiBold.ttf in Resources */,
+				F4DD77D22A7CE8A20065ED6A /* Quicksand-Bold.ttf in Resources */,
+				F4DD77D32A7CE8A20065ED6A /* Quicksand-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4DD77CD2A7CE3070065ED6A /* TestFont.swift in Sources */,
 				F44972E22A7B9CCA00F237E6 /* ListView.swift in Sources */,
 				F450247C2A73B57300D8C1DD /* InfoView.swift in Sources */,
 				F45024802A73BE6C00D8C1DD /* TestingInfoView.swift in Sources */,
@@ -324,6 +351,7 @@
 				F4DD77C12A7CC3D70065ED6A /* ContactRow.swift in Sources */,
 				F450247E2A73BE3000D8C1DD /* Testing.swift in Sources */,
 				F4DD77C32A7CC6480065ED6A /* MapView.swift in Sources */,
+				F4DD77D62A7CF2380065ED6A /* CustomButtonTest.swift in Sources */,
 				F4DD77BD2A7CBAD10065ED6A /* CircleImage.swift in Sources */,
 				F4A085B22A7BB118006CC1B9 /* SearchBar.swift in Sources */,
 				F4DD77B92A7CB7980065ED6A /* SupplementStores.swift in Sources */,
@@ -491,6 +519,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LogoName/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LogoName/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -519,6 +549,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LogoName/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LogoName/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

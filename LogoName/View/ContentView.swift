@@ -41,35 +41,48 @@ struct ContentView: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .padding(.top,200)
-                    .frame(width: 100)
+                    .frame(width: 200)
                 
                 Text("My Supplement Stores")
                     .foregroundColor(.white)
                     .bold()
+                    .font(.custom("Quicksand-Bold", size: 32))
                 Text("Unlock Your Potential: Embrace Health, Embrace Fitness!")
                     .foregroundColor(.white)
+                    .font(.custom("Quicksand-SemiBold", size: 20))
                     .bold()
                 
-                Button("Show Info") {
+                Button("Show Info"){
                     showInfoView.toggle()
                 }.padding()
-                    .foregroundColor(Color.black)
-                    .background(Color(.white))
+                    .foregroundColor(Color.white)
+                    .background(Color("blue"))
+                    .cornerRadius(30)
                     .sheet(isPresented: $showInfoView) {
                         TestingInfoView()
                     }
+                    
+                 
+                NavigationLink(
+                                destination: ListView(),
+                                isActive: $showListView,
+                                label: {
+                                    EmptyView()
+                                }
+                            )
+                            .background(EmptyView())
                 Spacer()
-                NavigationLink(destination: ListView(), isActive: $showListView) {
-                    EmptyView()
-                }
-                .hidden()
-                Button("View my Store") {
+                Button("VIEW MY STORE") {
                     showListView = true
                 }.padding()
-                    .foregroundColor(Color.black)
-                    .background(Color.white)
-                    .cornerRadius(10)
+                    .foregroundColor(Color.white)
+                    .background(Color("blue"))
+                    .cornerRadius(30)
                     
+                
+               
+                    
+               
                 
                 
                 

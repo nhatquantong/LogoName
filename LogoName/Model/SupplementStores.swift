@@ -13,7 +13,7 @@
 import Foundation
 
 // MARK: - WelcomeElement
-struct WelcomeElement: Codable {
+struct SupplementStores: Codable {
     let id: Int
     let name, address, image, shortDesccription: String
     let description: String
@@ -31,4 +31,3 @@ struct Coordinates: Codable {
     let latitude, longtitude: Double
 }
 
-typealias Welcome = [WelcomeElement]
