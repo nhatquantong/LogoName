@@ -1,0 +1,25 @@
+//
+//  CircleImage.swift
+//  LogoName
+//
+//  Created by Quan Tong Nhat on 04/08/2023.
+//
+
+import SwiftUI
+
+struct CircleImage: View {
+    var imageName: Image
+    
+    var body: some View {
+        imageName
+            .clipShape(Circle())
+            .overlay(Circle().stroke(Color(.white),lineWidth: 4))
+            .shadow(radius: 7)
+    }
+}
+
+struct CircleImage_Previews: PreviewProvider {
+    static var previews: some View {
+        CircleImage(imageName: Image("gymstore"))
+    }
+}

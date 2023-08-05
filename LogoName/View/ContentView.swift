@@ -12,46 +12,24 @@ struct ContentView: View {
     @State private var showListView = false
     @State private var animateGradient: Bool = false
     var body: some View {
-        //        VStack{
-        //            LinearGradient(colors: [Color("lighter green"),Color("lightest green")], startPoint: .topLeading, endPoint: .bottomTrailing)
-        //                .edgesIgnoringSafeArea(.all)
-        //            VStack {
-        //                Text("Hello, world!")
-        //                    .foregroundColor(.black)
-        //
-        //            }.padding(.top)
-        //
-        //
-        //            VStack {
-        //                Button("Show Info") {
-        //                    showInfoView.toggle()
-        //                }
-        //                .padding()
-        //                .foregroundColor(Color("green"))
-        //                .background(Color.white)
-        //                .cornerRadius(10)
-        //            }
-        //            .sheet(isPresented: $showInfoView) {
-        //                TestingInfoView()
-        //            }
-        //        }
         NavigationView{
             VStack{
-                Image("supplement")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .padding(.top,150)
-                    .frame(width: 200)
-                
                 Text("My Supplement Stores")
                     .foregroundColor(.white)
                     .bold()
-                    .font(.custom("Quicksand-Bold", size: 45))
+                    .font(.custom("Quicksand-Bold", size: 40))
+                    .padding(.bottom,10)
+
                 Text("Unlock Your Potential: Embrace Health, Embrace Fitness!")
                     .foregroundColor(.white)
-                    .font(.custom("Quicksand-SemiBold", size: 30))
-                    .bold()
-                    
+                    .font(.custom("Quicksand-Medium", size: 20))
+                Image("supplement2")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 200)
+                    .padding(.bottom,50)
+                
+    
                 Button{
                     showInfoView.toggle()
                 }label: {
@@ -61,50 +39,37 @@ struct ContentView: View {
                 }
                 .padding()
                     .foregroundColor(Color.white)
-                    .background(Color("blue"))
-                    .cornerRadius(30)
+               
+                    .background(Color.clear)
+                    .overlay(
+ RoundedRectangle(cornerRadius: 30)
+ .stroke(Color.white, lineWidth: 3))
                     .sheet(isPresented: $showInfoView) {
-                        TestingInfoView()
+                        StudentInfo()
                     }
                     
-                 
-                NavigationLink(
-                                destination: ListView(),
-                                isActive: $showListView,
-                                label: {
-                                    EmptyView()
-                                }
-                            )
-                            .background(EmptyView())
+ 
                 VStack{
                     Text("")
                 }
+     
                 VStack{
                     Text("")
+                        .padding(.top,20)
                 }
-                VStack{
-                    Text("")
-                }
-                Button{
-                    showListView = true
-                }label: {
-                    Text("View My Stores")
-                        .frame(maxWidth: .infinity)
-                        .font(.custom("Quicksand-Bold", size: 20))
-                }
-                .padding()
-                    .foregroundColor(Color.white)
-                    .background(Color("blue"))
-                    .cornerRadius(30)
-                    
-                
-               
-                    
-               
-                
-                
-                
-                Spacer()
+                NavigationLink(destination: StoreList()) {
+                                   Text("View My Stores")
+                                       .frame(maxWidth: .infinity)
+                                       .font(.custom("Quicksand-Bold", size: 20))
+                               }
+                               .padding()
+                               .foregroundColor(Color.white)
+                               .background(Color.clear)
+                               .overlay(
+                                   RoundedRectangle(cornerRadius: 30)
+                                       .stroke(Color.white, lineWidth: 3)
+                               )
+
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity) // Set the frame to cover the whole screen
             .edgesIgnoringSafeArea(.all)

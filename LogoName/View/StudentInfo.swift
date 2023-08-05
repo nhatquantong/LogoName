@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TestingInfoView: View {
+struct  StudentInfo: View {
     @Environment(\.presentationMode) var presentationMode
 
         var body: some View {
@@ -33,8 +33,8 @@ struct TestingInfoView: View {
         }
 }
 
-struct TestingInfoView_Previews: PreviewProvider {
+struct  StudentInfo_Previews: PreviewProvider {
     static var previews: some View {
-        TestingInfoView()
+       StudentInfo()
     }
 }

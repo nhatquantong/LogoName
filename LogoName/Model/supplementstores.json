@@ -3,96 +3,96 @@
         "id":1,
         "name":"abc",
         "address":"abcd",
-        "image":"abcde",
+        "image":"gymstore",
         "short_desccription":"abcdef",
         "description":"abcdefg",
         "coordinates":{
-            "latitude":12.000,
-            "longtitude":12.000
+            "latitude":12.001,
+            "longitude":12.001
         }
     },
     {
         "id":2,
         "name":"abc",
         "address":"abcd",
-        "image":"abcde",
+        "image":"gymwhey",
         "short_desccription":"abcdef",
         "description":"abcdefg",
         "coordinates":{
-            "latitude":12.000,
-            "longtitude":12.000
+            "latitude":12.0001,
+            "longitude":12.0001
         }
     },
     {
         "id":3,
         "name":"abc",
         "address":"abcd",
-        "image":"abcde",
+        "image":"muscleup",
         "short_desccription":"abcdef",
         "description":"abcdefg",
         "coordinates":{
-            "latitude":12.000,
-            "longtitude":12.000
+            "latitude":12.0001,
+            "longitude":12.0001
         }
     },
     {
         "id":4,
         "name":"abc",
         "address":"abcd",
-        "image":"abcde",
+        "image":"suppfactory",
         "short_desccription":"abcdef",
         "description":"abcdefg",
         "coordinates":{
-            "latitude":12.000,
-            "longtitude":12.000
+            "latitude":12.0001,
+            "longitude":12.0001
         }
     },
     {
         "id":5,
         "name":"abc",
         "address":"abcd",
-        "image":"abcde",
+        "image":"thebeast",
         "short_desccription":"abcdef",
         "description":"abcdefg",
         "coordinates":{
-            "latitude":12.000,
-            "longtitude":12.000
+            "latitude":12.0001,
+            "longitude":12.0001
         }
     },
     {
         "id":6,
         "name":"abc",
         "address":"abcd",
-        "image":"abcde",
+        "image":"thol-logo",
         "short_desccription":"abcdef",
         "description":"abcdefg",
         "coordinates":{
-            "latitude":12.000,
-            "longtitude":12.000
+            "latitude":12.0001,
+            "longitude":12.0001
         }
     },
     {
         "id":17,
         "name":"abc",
         "address":"abcd",
-        "image":"abcde",
+        "image":"vietnamsupp",
         "short_desccription":"abcdef",
         "description":"abcdefg",
         "coordinates":{
-            "latitude":12.000,
-            "longtitude":12.000
+            "latitude":12.0001,
+            "longitude":12.0001
         }
     },
     {
         "id":8,
         "name":"abc",
         "address":"abcd",
-        "image":"abcde",
+        "image":"yoursupp",
         "short_desccription":"abcdef",
         "description":"abcdefg",
         "coordinates":{
-            "latitude":12.000,
-            "longtitude":12.000
+            "latitude":12.0001,
+            "longitude":12.0001
         }
     }
 ]
