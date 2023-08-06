@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var showInfoView = false
+    @State private var showStudentInfo = false
     @State private var showListView = false
     @State private var animateGradient: Bool = false
     var body: some View {
@@ -31,7 +31,7 @@ struct ContentView: View {
                 
     
                 Button{
-                    showInfoView.toggle()
+                    showStudentInfo.toggle()
                 }label: {
                     Text("Creator's Information")
                         .frame(maxWidth: .infinity)
@@ -44,7 +44,7 @@ struct ContentView: View {
                     .overlay(
  RoundedRectangle(cornerRadius: 30)
  .stroke(Color.white, lineWidth: 3))
-                    .sheet(isPresented: $showInfoView) {
+                    .sheet(isPresented: $showStudentInfo) {
                         StudentInfo()
                     }
                     
