@@ -1,7 +1,7 @@
 [
     {
         "id":1,
-        "name":"abc",
+        "name":"Gymstore",
         "address":"abcd",
         "image":"gymstore",
         "short_desccription":"abcdef",
@@ -13,7 +13,7 @@
     },
     {
         "id":2,
-        "name":"abc",
+        "name":"Gymwhey",
         "address":"abcd",
         "image":"gymwhey",
         "short_desccription":"abcdef",
@@ -25,7 +25,7 @@
     },
     {
         "id":3,
-        "name":"abc",
+        "name":"MuscleUp",
         "address":"abcd",
         "image":"muscleup",
         "short_desccription":"abcdef",
@@ -37,7 +37,7 @@
     },
     {
         "id":4,
-        "name":"abc",
+        "name":"SuppFactory",
         "address":"abcd",
         "image":"suppfactory",
         "short_desccription":"abcdef",
@@ -49,7 +49,7 @@
     },
     {
         "id":5,
-        "name":"abc",
+        "name":"TheBeast",
         "address":"abcd",
         "image":"thebeast",
         "short_desccription":"abcdef",
@@ -61,7 +61,7 @@
     },
     {
         "id":6,
-        "name":"abc",
+        "name":"Thol",
         "address":"abcd",
         "image":"thol-logo",
         "short_desccription":"abcdef",
@@ -72,8 +72,8 @@
         }
     },
     {
-        "id":17,
-        "name":"abc",
+        "id":7,
+        "name":"VietnamSupp",
         "address":"abcd",
         "image":"vietnamsupp",
         "short_desccription":"abcdef",
@@ -85,7 +85,7 @@
     },
     {
         "id":8,
-        "name":"abc",
+        "name":"YourSupp",
         "address":"abcd",
         "image":"yoursupp",
         "short_desccription":"abcdef",
