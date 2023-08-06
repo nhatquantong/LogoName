@@ -52,6 +52,7 @@
              VStack{
                  Text(supplementstore.name)
                  Text(supplementstore.shortDesccription)
+                     .font(.system(size: 10))
              }
              
          }

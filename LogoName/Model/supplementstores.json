@@ -4,8 +4,8 @@
         "name":"Gymstore",
         "address":"abcd",
         "image":"gymstore",
-        "short_desccription":"abcdef",
-        "description":"abcdefg",
+        "short_desccription":"Premium supplements for optimal health.",
+        "description":"Premium supplements for optimal health.g",
         "coordinates":{
             "latitude":12.001,
             "longitude":12.001
@@ -16,8 +16,8 @@
         "name":"Gymwhey",
         "address":"abcd",
         "image":"gymwhey",
-        "short_desccription":"abcdef",
-        "description":"abcdefg",
+        "short_desccription":"Premium supplements for optimal health.",
+        "description":"Premium supplements for optimal health.g",
         "coordinates":{
             "latitude":12.0001,
             "longitude":12.0001
@@ -28,8 +28,8 @@
         "name":"MuscleUp",
         "address":"abcd",
         "image":"muscleup",
-        "short_desccription":"abcdef",
-        "description":"abcdefg",
+        "short_desccription":"Premium supplements for optimal health.",
+        "description":"Premium supplements for optimal health.g",
         "coordinates":{
             "latitude":12.0001,
             "longitude":12.0001
@@ -40,8 +40,8 @@
         "name":"SuppFactory",
         "address":"abcd",
         "image":"suppfactory",
-        "short_desccription":"abcdef",
-        "description":"abcdefg",
+        "short_desccription":"Premium supplements for optimal health.",
+        "description":"Premium supplements for optimal health.g",
         "coordinates":{
             "latitude":12.0001,
             "longitude":12.0001
@@ -52,8 +52,8 @@
         "name":"TheBeast",
         "address":"abcd",
         "image":"thebeast",
-        "short_desccription":"abcdef",
-        "description":"abcdefg",
+        "short_desccription":"Premium supplements for optimal health.",
+        "description":"Premium supplements for optimal health.g",
         "coordinates":{
             "latitude":12.0001,
             "longitude":12.0001
@@ -64,8 +64,8 @@
         "name":"Thol",
         "address":"abcd",
         "image":"thol-logo",
-        "short_desccription":"abcdef",
-        "description":"abcdefg",
+        "short_desccription":"Premium supplements for optimal health.",
+        "description":"Premium supplements for optimal health.g",
         "coordinates":{
             "latitude":12.0001,
             "longitude":12.0001
@@ -76,8 +76,8 @@
         "name":"VietnamSupp",
         "address":"abcd",
         "image":"vietnamsupp",
-        "short_desccription":"abcdef",
-        "description":"abcdefg",
+        "short_desccription":"Premium supplements for optimal health.",
+        "description":"Premium supplements for optimal health.g",
         "coordinates":{
             "latitude":12.0001,
             "longitude":12.0001
@@ -88,8 +88,8 @@
         "name":"YourSupp",
         "address":"abcd",
         "image":"yoursupp",
-        "short_desccription":"abcdef",
-        "description":"abcdefg",
+        "short_desccription":"Premium supplements for optimal health.",
+        "description":"Premium supplements for optimal health.g",
         "coordinates":{
             "latitude":12.0001,
             "longitude":12.0001
