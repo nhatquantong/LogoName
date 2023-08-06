@@ -18,6 +18,7 @@ struct MapView: View {
                .onAppear(){
                    region = MKCoordinateRegion(center: coordinate, span: MKCoordinateSpan(latitudeDelta: 0.004, longitudeDelta: 0.004))
                }
+               .edgesIgnoringSafeArea(.all)
        }
 }
 

@@ -11,17 +11,20 @@ import MapKit
 struct SupplementStoreCard: View {
     var supplementstore : SupplementStore
     var body: some View {
-        ZStack{
             ScrollView{
                 VStack{
+                    Spacer()
                 MapView(coordinate: CLLocationCoordinate2D(latitude: 12.000, longitude: -120.002))
                     .padding(.bottom,10)
-                    .edgesIgnoringSafeArea(.top)
+                   
                     .frame(height: 250)
                 CircleImage(imageName: supplementstore.imageName)
                         
                 Text("Gymstore")
-                    .padding(.top,80)
+                    
+                    Text(supplementstore.address)
+                    Text(supplementstore.description)
+
                 
                 InfoView(text: "Testing", imageName: "person.crop.circle")
                 InfoView(text: "Testing", imageName: "lanyardcard")
@@ -30,7 +33,7 @@ struct SupplementStoreCard: View {
                 
             }
             
-        }
+        
        
         
     }

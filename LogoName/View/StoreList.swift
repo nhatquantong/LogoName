@@ -28,7 +28,7 @@ struct StoreList: View {
                            
                         }
                         
-                        .navigationTitle("SSET Contact 📒")
+                        .navigationTitle("My Supplement Stores")
 
                     }.background(Color.clear)
             }
