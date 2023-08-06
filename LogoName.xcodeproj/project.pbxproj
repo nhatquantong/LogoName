@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A569EFA2A7F79880022A724 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A569EF92A7F79880022A724 /* Test.swift */; };
 		4AB2B1172A7EE5BF005D620A /* StoreRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB2B1162A7EE5BF005D620A /* StoreRow.swift */; };
 		4AEEAE342A7EEB820020E29C /* StoreList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEEAE332A7EEB820020E29C /* StoreList.swift */; };
 		F45024502A73A49900D8C1DD /* LogoNameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450244F2A73A49900D8C1DD /* LogoNameApp.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A569EF92A7F79880022A724 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		4AB2B1162A7EE5BF005D620A /* StoreRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreRow.swift; sourceTree = "<group>"; };
 		4AEEAE332A7EEB820020E29C /* StoreList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreList.swift; sourceTree = "<group>"; };
 		F450244C2A73A49900D8C1DD /* LogoName.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogoName.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -179,6 +181,7 @@
 				F4DD77BE2A7CBF1E0065ED6A /* SupplementStoreCard.swift */,
 				4AEEAE332A7EEB820020E29C /* StoreList.swift */,
 				F450247B2A73B57300D8C1DD /* InfoView.swift */,
+				4A569EF92A7F79880022A724 /* Test.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				F4DD77BF2A7CBF1E0065ED6A /* SupplementStoreCard.swift in Sources */,
 				F45024522A73A49900D8C1DD /* ContentView.swift in Sources */,
 				F4DD77C32A7CC6480065ED6A /* MapView.swift in Sources */,
+				4A569EFA2A7F79880022A724 /* Test.swift in Sources */,
 				F4DD77BD2A7CBAD10065ED6A /* CircleImage.swift in Sources */,
 				4AEEAE342A7EEB820020E29C /* StoreList.swift in Sources */,
 				F4A085B22A7BB118006CC1B9 /* SearchBar.swift in Sources */,
