@@ -14,20 +14,27 @@ struct SupplementStoreCard: View {
             ScrollView{
                 VStack{
                     Spacer()
-                MapView(coordinate: CLLocationCoordinate2D(latitude: 12.000, longitude: -120.002))
+                    MapView(coordinate: supplementstore.locationCoordinate)
                     .padding(.bottom,10)
                    
                     .frame(height: 250)
                 CircleImage(imageName: supplementstore.imageName)
                         
-                Text("Gymstore")
+                    Text(supplementstore.name)
+                        .font(.custom("Quicksand-SemiBold", size: 25))
+                        .textCase(.uppercase)
                     
                     Text(supplementstore.address)
+                        
+                        .font(.custom("Quicksand-SemiBold", size: 10))
+                        .foregroundColor(.gray)
+                        
                     Text(supplementstore.description)
-
+                        .frame(width: 350)
+                        .font(.custom("Quicksand-Medium", size: 15))
+                        .padding(.top,20)
                 
-                InfoView(text: "Testing", imageName: "person.crop.circle")
-                InfoView(text: "Testing", imageName: "lanyardcard")
+            
 
             }
                 

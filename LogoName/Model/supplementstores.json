@@ -7,8 +7,123 @@
         "short_desccription":"Premium supplements for optimal health.",
         "description":"Welcome to our premium supplement store, dedicated to elevating your health and vitality. Explore a diverse selection of top-quality products, from vitamins and minerals to protein powders and herbal remedies, all meticulously sourced from reputable brands. Our knowledgeable team is ready to assist you in finding the ideal supplements for your unique needs and goals. Discover a community of health enthusiasts through our engaging events and workshops, and embrace sustainable and natural options for a holistic approach to well-being. Start your journey to optimal health with us today, where personalized service and a warm atmosphere await you. Your well-being is our priority.",
         "coordinates":{
-            "latitude":12.001,
-            "longitude":12.001
+            "latitude":10.763680,
+            "longitude":106.679740
+        }
+ 
+    },
+    {
+        "id":2,
+        "name":"Gymwhey",
+        "address":"6/4 Số 3 Cư Xá Lữ Gia, Phường 15, Quận 11, Thành phố Hồ Chí Minh 72620",
+        "image":"gymwhey",
+        "short_desccription":"Premium supplements for optimal health.",
+        "description":"Welcome to our premium supplement store, dedicated to elevating your health and vitality. Explore a diverse selection of top-quality products, from vitamins and minerals to protein powders and herbal remedies, all meticulously sourced from reputable brands. Our knowledgeable team is ready to assist you in finding the ideal supplements for your unique needs and goals. Discover a community of health enthusiasts through our engaging events and workshops, and embrace sustainable and natural options for a holistic approach to well-being. Start your journey to optimal health with us today, where personalized service and a warm atmosphere await you. Your well-being is our priority.",
+        "coordinates":{
+            "latitude":10.773120,
+            "longitude":106.655900
+        }
+   
+    },
+    {
+        "id":3,
+        "name":"MuscleUp",
+        "address":"41 Đ. Số 13, Phường 6, Quận 4, Thành phố Hồ Chí Minh",
+        "image":"muscleup",
+        "short_desccription":"Premium supplements for optimal health.",
+        "description":"Welcome to our premium supplement store, dedicated to elevating your health and vitality. Explore a diverse selection of top-quality products, from vitamins and minerals to protein powders and herbal remedies, all meticulously sourced from reputable brands. Our knowledgeable team is ready to assist you in finding the ideal supplements for your unique needs and goals. Discover a community of health enthusiasts through our engaging events and workshops, and embrace sustainable and natural options for a holistic approach to well-being. Start your journey to optimal health with us today, where personalized service and a warm atmosphere await you. Your well-being is our priority.",
+        "coordinates":{
+            "latitude":10.793890,
+            "longitude":1106.732870
+        }
+
+    },
+    {
+        "id":4,
+        "name":"SuppFactory",
+        "address":"93 Đường số 53, Tân Quy, Quận 7, Thành phố Hồ Chí Minh",
+        "image":"suppfactory",
+        "short_desccription":"Premium supplements for optimal health.",
+        "description":"Welcome to our premium supplement store, dedicated to elevating your health and vitality. Explore a diverse selection of top-quality products, from vitamins and minerals to protein powders and herbal remedies, all meticulously sourced from reputable brands. Our knowledgeable team is ready to assist you in finding the ideal supplements for your unique needs and goals. Discover a community of health enthusiasts through our engaging events and workshops, and embrace sustainable and natural options for a holistic approach to well-being. Start your journey to optimal health with us today, where personalized service and a warm atmosphere await you. Your well-being is our priority.",
+        "coordinates":{
+            "latitude":10.740320,
+            "longitude":106.714790
+        }
+
+    },
+    {
+        "id":5,
+        "name":"TheBeast",
+        "address":"40 Hẻm 165 Nguyễn Thái Bình, Phường Nguyễn Thái Bình, Quận 1, Thành phố Hồ Chí Minh",
+        "image":"thebeast",
+        "short_desccription":"Premium supplements for optimal health.",
+        "description":"Welcome to our premium supplement store, dedicated to elevating your health and vitality. Explore a diverse selection of top-quality products, from vitamins and minerals to protein powders and herbal remedies, all meticulously sourced from reputable brands. Our knowledgeable team is ready to assist you in finding the ideal supplements for your unique needs and goals. Discover a community of health enthusiasts through our engaging events and workshops, and embrace sustainable and natural options for a holistic approach to well-being. Start your journey to optimal health with us today, where personalized service and a warm atmosphere await you. Your well-being is our priority.",
+        "coordinates":{
+            "latitude":10.767670,
+            "longitude":106.698550
+        }
+  
+    },
+    {
+        "id":6,
+        "name":"Thol",
+        "address":"107-109 Đường số 6, Bình Trị Đông B TpHCM",
+        "image":"thol-logo",
+        "short_desccription":"Premium supplements for optimal health.",
+        "description":"Welcome to our premium supplement store, dedicated to elevating your health and vitality. Explore a diverse selection of top-quality products, from vitamins and minerals to protein powders and herbal remedies, all meticulously sourced from reputable brands. Our knowledgeable team is ready to assist you in finding the ideal supplements for your unique needs and goals. Discover a community of health enthusiasts through our engaging events and workshops, and embrace sustainable and natural options for a holistic approach to well-being. Start your journey to optimal health with us today, where personalized service and a warm atmosphere await you. Your well-being is our priority.",
+        "coordinates":{
+            "latitude":10.763190,
+            "longitude":106.608970
+        }
+
+    },
+    {
+        "id":7,
+        "name":"VietnamSupp",
+        "address":"186 Tôn Đức Thắng, Phường Quốc Tử Giám, Quận Đống Đa, Hà Nội",
+        "image":"vietnamsupp",
+        "short_desccription":"Premium supplements for optimal health.",
+        "description":"Welcome to our premium supplement store, dedicated to elevating your health and vitality. Explore a diverse selection of top-quality products, from vitamins and minerals to protein powders and herbal remedies, all meticulously sourced from reputable brands. Our knowledgeable team is ready to assist you in finding the ideal supplements for your unique needs and goals. Discover a community of health enthusiasts through our engaging events and workshops, and embrace sustainable and natural options for a holistic approach to well-being. Start your journey to optimal health with us today, where personalized service and a warm atmosphere await you. Your well-being is our priority.",
+        "coordinates":{
+            "latitude":21.027250,
+            "longitude":105.833800
+        }
+
+    },
+    {
+        "id":8,
+        "name":"YourSupp",
+        "address":" 161 Cách Mạng Tháng Tám, P5, Quận 3, TPHCM  ",
+        "image":"yoursupp",
+        "short_desccription":"Premium supplements for optimal health.",
+        "description":"Welcome to our premium supplement store, dedicated to elevating your health and vitality. Explore a diverse selection of top-quality products, from vitamins and minerals to protein powders and herbal remedies, all meticulously sourced from reputable brands. Our knowledgeable team is ready to assist you in finding the ideal supplements for your unique needs and goals. Discover a community of health enthusiasts through our engaging events and workshops, and embrace sustainable and natural options for a holistic approach to well-being. Start your journey to optimal health with us today, where personalized service and a warm atmosphere await you. Your well-being is our priority.",
+        "coordinates":{
+            "latitude":10.774390,
+            "longitude":106.688710
+        }
+    },
+    {
+        "id":9,
+        "name":"Gymstore",
+        "address":"286 Trần Phú, Phường 8, Quận 5, TP. Hồ Chí Minh",
+        "image":"gymstore",
+        "short_desccription":"Premium supplements for optimal health.",
+        "description":"Welcome to our premium supplement store, dedicated to elevating your health and vitality. Explore a diverse selection of top-quality products, from vitamins and minerals to protein powders and herbal remedies, all meticulously sourced from reputable brands. Our knowledgeable team is ready to assist you in finding the ideal supplements for your unique needs and goals. Discover a community of health enthusiasts through our engaging events and workshops, and embrace sustainable and natural options for a holistic approach to well-being. Start your journey to optimal health with us today, where personalized service and a warm atmosphere await you. Your well-being is our priority.",
+        "coordinates":{
+            "latitude":10.763680,
+            "longitude":106.679740
+        }
+    },
+    {
+        "id":10,
+        "name":"YourSupp",
+        "address":" 161 Cách Mạng Tháng Tám, P5, Quận 3, TPHCM  ",
+        "image":"yoursupp",
+        "short_desccription":"Premium supplements for optimal health.",
+        "description":"Welcome to our premium supplement store, dedicated to elevating your health and vitality. Explore a diverse selection of top-quality products, from vitamins and minerals to protein powders and herbal remedies, all meticulously sourced from reputable brands. Our knowledgeable team is ready to assist you in finding the ideal supplements for your unique needs and goals. Discover a community of health enthusiasts through our engaging events and workshops, and embrace sustainable and natural options for a holistic approach to well-being. Start your journey to optimal health with us today, where personalized service and a warm atmosphere await you. Your well-being is our priority.",
+        "coordinates":{
+            "latitude":10.774390,
+            "longitude":106.688710
         }
     },
     {
@@ -19,80 +134,10 @@
         "short_desccription":"Premium supplements for optimal health.",
         "description":"Welcome to our premium supplement store, dedicated to elevating your health and vitality. Explore a diverse selection of top-quality products, from vitamins and minerals to protein powders and herbal remedies, all meticulously sourced from reputable brands. Our knowledgeable team is ready to assist you in finding the ideal supplements for your unique needs and goals. Discover a community of health enthusiasts through our engaging events and workshops, and embrace sustainable and natural options for a holistic approach to well-being. Start your journey to optimal health with us today, where personalized service and a warm atmosphere await you. Your well-being is our priority.",
         "coordinates":{
-            "latitude":12.0001,
-            "longitude":12.0001
+            "latitude":10.773120,
+            "longitude":106.655900
         }
-    },
-    {
-        "id":3,
-        "name":"MuscleUp",
-        "address":"41 Đ. Số 13, Phường 6, Quận 4, Thành phố Hồ Chí Minh",
-        "image":"muscleup",
-        "short_desccription":"Premium supplements for optimal health.",
-        "description":"Welcome to our premium supplement store, dedicated to elevating your health and vitality. Explore a diverse selection of top-quality products, from vitamins and minerals to protein powders and herbal remedies, all meticulously sourced from reputable brands. Our knowledgeable team is ready to assist you in finding the ideal supplements for your unique needs and goals. Discover a community of health enthusiasts through our engaging events and workshops, and embrace sustainable and natural options for a holistic approach to well-being. Start your journey to optimal health with us today, where personalized service and a warm atmosphere await you. Your well-being is our priority.",
-        "coordinates":{
-            "latitude":12.0001,
-            "longitude":12.0001
-        }
-    },
-    {
-        "id":4,
-        "name":"SuppFactory",
-        "address":"93 Đường số 53, Tân Quy, Quận 7, Thành phố Hồ Chí Minh",
-        "image":"suppfactory",
-        "short_desccription":"Premium supplements for optimal health.",
-        "description":"Welcome to our premium supplement store, dedicated to elevating your health and vitality. Explore a diverse selection of top-quality products, from vitamins and minerals to protein powders and herbal remedies, all meticulously sourced from reputable brands. Our knowledgeable team is ready to assist you in finding the ideal supplements for your unique needs and goals. Discover a community of health enthusiasts through our engaging events and workshops, and embrace sustainable and natural options for a holistic approach to well-being. Start your journey to optimal health with us today, where personalized service and a warm atmosphere await you. Your well-being is our priority.",
-        "coordinates":{
-            "latitude":12.0001,
-            "longitude":12.0001
-        }
-    },
-    {
-        "id":5,
-        "name":"TheBeast",
-        "address":"40 Hẻm 165 Nguyễn Thái Bình, Phường Nguyễn Thái Bình, Quận 1, Thành phố Hồ Chí Minh",
-        "image":"thebeast",
-        "short_desccription":"Premium supplements for optimal health.",
-        "description":"Welcome to our premium supplement store, dedicated to elevating your health and vitality. Explore a diverse selection of top-quality products, from vitamins and minerals to protein powders and herbal remedies, all meticulously sourced from reputable brands. Our knowledgeable team is ready to assist you in finding the ideal supplements for your unique needs and goals. Discover a community of health enthusiasts through our engaging events and workshops, and embrace sustainable and natural options for a holistic approach to well-being. Start your journey to optimal health with us today, where personalized service and a warm atmosphere await you. Your well-being is our priority.",
-        "coordinates":{
-            "latitude":12.0001,
-            "longitude":12.0001
-        }
-    },
-    {
-        "id":6,
-        "name":"Thol",
-        "address":"107-109 Đường số 6, Bình Trị Đông B TpHCM",
-        "image":"thol-logo",
-        "short_desccription":"Premium supplements for optimal health.",
-        "description":"Welcome to our premium supplement store, dedicated to elevating your health and vitality. Explore a diverse selection of top-quality products, from vitamins and minerals to protein powders and herbal remedies, all meticulously sourced from reputable brands. Our knowledgeable team is ready to assist you in finding the ideal supplements for your unique needs and goals. Discover a community of health enthusiasts through our engaging events and workshops, and embrace sustainable and natural options for a holistic approach to well-being. Start your journey to optimal health with us today, where personalized service and a warm atmosphere await you. Your well-being is our priority.",
-        "coordinates":{
-            "latitude":12.0001,
-            "longitude":12.0001
-        }
-    },
-    {
-        "id":7,
-        "name":"VietnamSupp",
-        "address":"186 Tôn Đức Thắng, Phường Quốc Tử Giám, Quận Đống Đa, Hà Nội",
-        "image":"vietnamsupp",
-        "short_desccription":"Premium supplements for optimal health.",
-        "description":"Welcome to our premium supplement store, dedicated to elevating your health and vitality. Explore a diverse selection of top-quality products, from vitamins and minerals to protein powders and herbal remedies, all meticulously sourced from reputable brands. Our knowledgeable team is ready to assist you in finding the ideal supplements for your unique needs and goals. Discover a community of health enthusiasts through our engaging events and workshops, and embrace sustainable and natural options for a holistic approach to well-being. Start your journey to optimal health with us today, where personalized service and a warm atmosphere await you. Your well-being is our priority.",
-        "coordinates":{
-            "latitude":12.0001,
-            "longitude":12.0001
-        }
-    },
-    {
-        "id":8,
-        "name":"YourSupp",
-        "address":" 161 Cách Mạng Tháng Tám, P5, Quận 3, TPHCM",
-        "image":"yoursupp",
-        "short_desccription":"Premium supplements for optimal health.",
-        "description":"Welcome to our premium supplement store, dedicated to elevating your health and vitality. Explore a diverse selection of top-quality products, from vitamins and minerals to protein powders and herbal remedies, all meticulously sourced from reputable brands. Our knowledgeable team is ready to assist you in finding the ideal supplements for your unique needs and goals. Discover a community of health enthusiasts through our engaging events and workshops, and embrace sustainable and natural options for a holistic approach to well-being. Start your journey to optimal health with us today, where personalized service and a warm atmosphere await you. Your well-being is our priority.",
-        "coordinates":{
-            "latitude":12.0001,
-            "longitude":12.0001
-        }
+   
     }
+    
 ]

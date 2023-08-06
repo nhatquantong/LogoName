@@ -14,6 +14,7 @@ struct SupplementStore: Identifiable ,Codable {
     let description: String
     let coordinates: Coordinates
     
+    
     var imageName: Image {
         Image(image)
     }
@@ -21,6 +22,7 @@ struct SupplementStore: Identifiable ,Codable {
         case id, name, address, image
         case shortDesccription = "short_desccription"
         case description, coordinates
+       
     }
     var locationCoordinate: CLLocationCoordinate2D {
            CLLocationCoordinate2D(

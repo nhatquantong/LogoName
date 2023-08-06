@@ -16,7 +16,6 @@
 		F45024612A73A49B00D8C1DD /* LogoNameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45024602A73A49B00D8C1DD /* LogoNameTests.swift */; };
 		F450246B2A73A49B00D8C1DD /* LogoNameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450246A2A73A49B00D8C1DD /* LogoNameUITests.swift */; };
 		F450246D2A73A49B00D8C1DD /* LogoNameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450246C2A73A49B00D8C1DD /* LogoNameUITestsLaunchTests.swift */; };
-		F450247C2A73B57300D8C1DD /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450247B2A73B57300D8C1DD /* InfoView.swift */; };
 		F45024802A73BE6C00D8C1DD /* StudentInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450247F2A73BE6C00D8C1DD /* StudentInfo.swift */; };
 		F4A085B22A7BB118006CC1B9 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A085B12A7BB118006CC1B9 /* SearchBar.swift */; };
 		F4DD77B72A7CB6D70065ED6A /* supplementstores.json in Resources */ = {isa = PBXBuildFile; fileRef = F4DD77B62A7CB6D70065ED6A /* supplementstores.json */; };
@@ -60,7 +59,6 @@
 		F45024662A73A49B00D8C1DD /* LogoNameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogoNameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F450246A2A73A49B00D8C1DD /* LogoNameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoNameUITests.swift; sourceTree = "<group>"; };
 		F450246C2A73A49B00D8C1DD /* LogoNameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoNameUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F450247B2A73B57300D8C1DD /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		F450247F2A73BE6C00D8C1DD /* StudentInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentInfo.swift; sourceTree = "<group>"; };
 		F4A085B12A7BB118006CC1B9 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		F4DD77B62A7CB6D70065ED6A /* supplementstores.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = supplementstores.json; sourceTree = "<group>"; };
@@ -178,7 +176,6 @@
 				4AB2B1162A7EE5BF005D620A /* StoreRow.swift */,
 				F4DD77BE2A7CBF1E0065ED6A /* SupplementStoreCard.swift */,
 				4AEEAE332A7EEB820020E29C /* StoreList.swift */,
-				F450247B2A73B57300D8C1DD /* InfoView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -328,7 +325,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AB2B1172A7EE5BF005D620A /* StoreRow.swift in Sources */,
-				F450247C2A73B57300D8C1DD /* InfoView.swift in Sources */,
 				F45024802A73BE6C00D8C1DD /* StudentInfo.swift in Sources */,
 				F4DD77BF2A7CBF1E0065ED6A /* SupplementStoreCard.swift in Sources */,
 				F45024522A73A49900D8C1DD /* ContentView.swift in Sources */,
